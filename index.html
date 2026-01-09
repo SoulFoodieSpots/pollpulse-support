@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PollPulse - Real News, Real Opinions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            text-align: center;
+            color: white;
+            max-width: 600px;
+        }
+        
+        .logo {
+            font-size: 5em;
+            margin-bottom: 20px;
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .tagline {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .button {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        
+        .button.secondary {
+            background: rgba(255,255,255,0.2);
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .features {
+            margin-top: 60px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+        
+        .feature {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .feature-icon {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .footer {
+            margin-top: 60px;
+            opacity: 0.8;
+        }
+        
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">📊</div>
+        <h1>PollPulse</h1>
+        <p class="tagline">Real News. Real Opinions.</p>
+        
+        <div class="button-group">
+            <a href="support.html" class="button">Get Support</a>
+            <a href="privacy.html" class="button secondary">Privacy Policy</a>
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">📰</div>
+                <strong>Real News</strong>
+                <p style="font-size: 0.9em; margin-top: 5px;">Questions from actual stories</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🤖</div>
+                <strong>AI-Powered</strong>
+                <p style="font-size: 0.9em; margin-top: 5px;">Fresh questions daily</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">📊</div>
+                <strong>Live Results</strong>
+                <p style="font-size: 0.9em; margin-top: 5px;">See opinions instantly</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔒</div>
+                <strong>Anonymous</strong>
+                <p style="font-size: 0.9em; margin-top: 5px;">Your vote is private</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2026 PollPulse. All rights reserved.</p>
+            <p style="margin-top: 10px;">
+                <a href="support.html">Support</a> | 
+                <a href="privacy.html">Privacy</a> | 
+                <a href="mailto:pollpulse321@gmail.com">Contact</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
