@@ -13,7 +13,7 @@
         
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #3d2052 0%, #5a3667 50%, #3d2052 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -28,9 +28,12 @@
         }
         
         .logo {
-            font-size: 5em;
-            margin-bottom: 20px;
+            width: 180px;
+            height: 180px;
+            margin: 0 auto 20px;
             animation: bounce 2s infinite;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
         }
         
         @keyframes bounce {
@@ -39,9 +42,11 @@
         }
         
         h1 {
-            font-size: 3em;
+            font-size: 3.5em;
             margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            font-weight: 800;
+            letter-spacing: -1px;
         }
         
         .tagline {
@@ -118,7 +123,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="logo">📊</div>
+        <img src="PollPulseIcon512-512.png" alt="PollPulse Logo" class="logo">
         <h1>PollPulse</h1>
         <p class="tagline">Real News. Real Opinions.</p>
         
@@ -155,9 +160,5 @@
             <p style="margin-top: 10px;">
                 <a href="support.html">Support</a> | 
                 <a href="privacy.html">Privacy</a> | 
-                <a href="mailto:pollpulse321@gmail.com">Contact</a>
-            </p>
-        </div>
-    </div>
-</body>
-</html>
+                <a href="/cdn-cgi/l/email-protection#87f7e8ebebf7f2ebf4e2b4b5b6c7e0eae6eeeba9e4e8ea">Contact</a>
+            </
